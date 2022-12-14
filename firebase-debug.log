@@ -1,0 +1,33 @@
+[debug] [2022-12-11T19:09:06.984Z] ----------------------------------------------------------------------
+[debug] [2022-12-11T19:09:06.992Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\eGeneration\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-12-11T19:09:06.994Z] CLI Version:   11.16.1
+[debug] [2022-12-11T19:09:06.994Z] Platform:      win32
+[debug] [2022-12-11T19:09:06.994Z] Node Version:  v16.17.1
+[debug] [2022-12-11T19:09:06.997Z] Time:          Mon Dec 12 2022 01:09:06 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-12-11T19:09:06.998Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-11T19:09:07.022Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-11T19:09:07.024Z] > authorizing via signed-in user (firojalamraju12345678@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\projects\portfolio
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
