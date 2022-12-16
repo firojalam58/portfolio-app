@@ -20,8 +20,9 @@ const Portfolio = () => {
            Car Selling!
             <div className="badge badge-secondary">NEW</div>
             </h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>Car Resell This website uses awesome features</p>
             <div className="card-actions justify-end">
+            <Link to={'/car'} className="btn btn-primary">View Details</Link>
             <a href='https://github.com/firojalam58/car-selling-client' target={'_blank'} className="btn btn-primary">Github</a>
             <a href='https://car-selling-f1fd9.web.app/' target={'_blank'} className="btn">Live</a>
             </div>
@@ -35,10 +36,9 @@ const Portfolio = () => {
             Photograohy!
             <div className="badge badge-secondary">NEW</div>
             </h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>I use Awesome Camera and i create Awesome picture and also awesome service our client</p>
             <div className="card-actions justify-end">
                 <Link to={'/photography'} className="btn btn-primary">View Details</Link>
-            {/* <a href='https://github.com/firojalam58/simple-react-app'target={'_blank'} className="btn btn-primary"></a> */}
             <a href='https://github.com/firojalam58/simple-react-app'target={'_blank'} className="btn btn-primary">Github Link</a>
             <a href='https://assignment11-8b96d.web.app/'target={'_blank'} className="btn">Live Link</a>
             </div>
@@ -52,8 +52,9 @@ const Portfolio = () => {
             Edu Hash!
             <div className="badge badge-secondary">NEW</div>
             </h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>Online Course Service This Website many Courses </p>
             <div className="card-actions justify-end">
+            <Link to={'/eduhash'} className="btn btn-primary">View Details</Link>
             <a href='https://github.com/firojalam58/eduhas-client-site'target={'_blank'} className="btn btn-primary">Github</a>
             <a href='https://asignment-10-710fa.web.app/'target={'_blank'} className="btn">Live</a>
             </div>
