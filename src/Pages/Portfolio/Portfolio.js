@@ -4,6 +4,7 @@ import img1 from '../../../src/images/car-selling.png'
 import img2 from '../../../src/images/sports.png'
 import img3 from '../../../src/images/eduhas.png' 
 import { Fade  } from 'react-reveal';
+import { Link } from 'react-router-dom';
 const Portfolio = () => {
     return (
         <div className='bg margin-auto py-5'>
@@ -36,8 +37,10 @@ const Portfolio = () => {
             </h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div className="card-actions justify-end">
-            <a href='https://github.com/firojalam58/simple-react-app'target={'_blank'} className="btn btn-primary">Github</a>
-            <a href='https://assignment11-8b96d.web.app/'target={'_blank'} className="btn">Live</a>
+                <Link to={'/photography'} className="btn btn-primary">View Details</Link>
+            {/* <a href='https://github.com/firojalam58/simple-react-app'target={'_blank'} className="btn btn-primary"></a> */}
+            <a href='https://github.com/firojalam58/simple-react-app'target={'_blank'} className="btn btn-primary">Github Link</a>
+            <a href='https://assignment11-8b96d.web.app/'target={'_blank'} className="btn">Live Link</a>
             </div>
   </div>
 </div>

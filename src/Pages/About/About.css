@@ -53,4 +53,24 @@ li a:hover{
     .sm{
         font-size: 20px;
     }
+    .title_p::before {
+        position: absolute;
+        content: '';
+        top: 50%;
+        transform: translateY(-50%);
+        left: -0px;
+        width: 0px;
+        height: 2px;
+        background: #FFB400;
+    }
+    .title_p::after {
+        position: absolute;
+        content: '';
+        top: 50%;
+        transform: translateY(-50%);
+        right: -0px;
+        width: 0px;
+        height: 2px;
+        background: #FFB400;
+    }
 }

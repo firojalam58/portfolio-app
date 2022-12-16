@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { Fade, Rotate, LightSpeed } from 'react-reveal';
 const About = () => {
     return (
-        <div className='bg py-5'>
+        <div className='bg lg:py-5'>
           <Rotate top left>
             <div className="title text-center">
                 <h2>ABOUT <span className='about-text'>ME</span></h2>
@@ -16,11 +16,11 @@ const About = () => {
   <div className="hero-content flex-col lg:flex-row mt-4">
     <Fade bottom big cascade>
 
-    <img src={img} className="max-w-sm rounded-lg shadow-2xl" />
+    <img src={img} className=" lg:w-1/2 rounded-lg shadow-2xl" />
     </Fade>
     <LightSpeed left>
     <div className='ml-3'>
-      <h1 className="text-5xl sm font-bold text-white">Hello Sweet Client</h1>
+      <h1 className="text-5xl  font-bold text-white">Hello Sweet Client</h1>
       <p className="py-6 text-white">I am a professional Web Developer . 
                 Having a Bachelors Degree in Computer Science .
                 My skills: HTML, CSS, Bootstrap, Javascript, React JS,Node JS,Express JS,Firebase Authentication,MongoDB,
@@ -31,7 +31,7 @@ const About = () => {
                 </p>
                 <h2 className='text'>Thank You So Much</h2>
       <button  className="btn btn-primary">
-            <Link to={'/contract '}>Contract Me</Link> 
+            <Link to={'/contract '}>Contact Me</Link> 
         </button>
     </div>
     </LightSpeed>

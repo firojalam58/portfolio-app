@@ -8,7 +8,7 @@ const Skill = () => {
             <div className=''>
             <h2 className='text-5xl text-white mb-10'>MY SKILLS</h2>
             <div className="text-center">
-                <div className="grid gap-20 grid-cols-1 sm:grid-cols-2">
+                <div className="grid px-5 gap-20 grid-cols-1 sm:grid-cols-2">
                     <div className=" lg:text-left">
                         <Fade bottom big cascade>
                             <h2 className='text-3xl mb-10 mt-10 text-orange-500'>Front-End Skill</h2>
@@ -19,18 +19,18 @@ const Skill = () => {
                                 </div>
                                 <div>
                                     <span><div className="radial-progress text-primary" style={{ "--value": 90 }}>90%</div></span>
-                                    <p className='text-lg text-white mt-2'>CSS-3</p>
+                                    <p className='text-lg text-white mt-2'>CSS</p>
                                 </div>
                                 <div>
-                                    <span><div className="radial-progress text-primary" style={{ "--value": 85 }}>90%</div></span>
+                                    <span><div className="radial-progress text-primary" style={{ "--value": 85 }}>85%</div></span>
                                     <p className='text-lg text-white mt-2'>Bootstrap-5</p>
                                 </div>
                                 <div>
-                                    <span><div className="radial-progress text-primary" style={{ "--value": 95 }}>90%</div></span>
+                                    <span><div className="radial-progress text-primary" style={{ "--value": 75 }}>75%</div></span>
                                     <p className='text-lg text-white mt-2'>Tailwind CSS</p>
                                 </div>
                                 <div>
-                                    <span><div className="radial-progress text-primary" style={{ "--value": 80 }}>90%</div></span>
+                                    <span><div className="radial-progress text-primary" style={{ "--value": 80 }}>80%</div></span>
                                     <p className='text-lg text-white mt-2'>React.js</p>
                                 </div>
                             </div>
@@ -46,11 +46,11 @@ const Skill = () => {
                                         <p className='text-lg text-white mt-2'>Java Script</p>
                                     </div>
                                     <div>
-                                        <span><div className="radial-progress text-warning " style={{ "--value": 90 }}>90%</div></span>
+                                        <span><div className="radial-progress text-warning " style={{ "--value": 80 }}>80%</div></span>
                                         <p className='text-lg text-white mt-2'>Node.js</p>
                                     </div>
                                     <div>
-                                        <span><div className="radial-progress text-warning " style={{ "--value": 85 }}>90%</div></span>
+                                        <span><div className="radial-progress text-warning " style={{ "--value": 85 }}>85%</div></span>
                                         <p className='text-lg text-white mt-2'>Express.js</p>
                                     </div>
                                     <div>

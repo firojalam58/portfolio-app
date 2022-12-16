@@ -5,10 +5,11 @@ import { router } from './Pages/Routes/Router';
 
 function App() {
   return (
-    <div className='App text-center'>
+    <div className='App text-center '>
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
 
 export default App;
+// max-w-screen-xl mx-auto

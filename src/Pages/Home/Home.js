@@ -8,10 +8,10 @@ const Home = () => {
             <div className='home-parent'>
                 <div className="home-details">
                     <div className="home-icon">
-                        <a href="#" target={'_blank'}><i className='fa fa-facebook-square'></i> </a>
-                        <a href="#" target={'_blank'}><i className='fa fa-github-square'></i> </a>
-                        <a href="#" target={'_blank'}><i className='fa fa-linkedin-square'></i> </a>
-                        <a href="#" target={'_blank'}><i className='fa fa-google-plus-square'></i> </a>
+                        <a href="https://www.facebook.com/profile.php?id=100020999562586&mibextid=ZbWKwL" target={'_blank'}><i className='fa fa-facebook-square'></i> </a>
+                        <a href="https://github.com/firojalam58" target={'_blank'}><i className='fa fa-github-square'></i> </a>
+                        <a href="www.linkedin.com/in/firoj-alam-raju" target={'_blank'}><i className='fa fa-linkedin-square'></i> </a>
+                        <a href="https://devfiroj.netlify.app/" target={'_blank'}><i className='fa fa-google-plus-square'></i> </a>
                     </div>
                 </div>
                 <div className="portfolio-details-name">

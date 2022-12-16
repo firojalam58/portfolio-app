@@ -12,9 +12,9 @@ const Navbar = () => {
         <li><Link to='/contract'>Contract</Link></li>
     </React.Fragment>
     return (
-        <div>
- <div>
-            <div className="navbar py-6 font-bold bg-neutral  text-neutral-content">
+        <div className='lg:sticky top-0 z-50'>
+ 
+            <div className="navbar  py-6 font-bold bg-neutral  text-neutral-content">
                 <div className="navbar-start">
                     <div className="dropdown ">
                         <label tabIndex={0} className="btn btn-ghost  lg:hidden">
@@ -39,7 +39,6 @@ const Navbar = () => {
                 </div>
             </div>
             <hr />
-        </div>
         </div>
     );
 };
