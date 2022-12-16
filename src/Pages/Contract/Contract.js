@@ -34,20 +34,20 @@ const Contract = () => {
                         </p>
                     </div>
                 </div>
-                <form action="https://formsubmit.co/27bc48cc8fd2cf36af8360d000fe98b3" method="POST" novalidate="" className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
+                <form action="https://formsubmit.co/firojalamraju85@gmail.com" method="POST" className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
                     <label className="block">
                         <span className="mb-1">Full name</span>
-                        <input name='name' type="text" placeholder="Leroy Jenkins" className="block p-4 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800" />
+                        <input name='name' type="text" placeholder="Leroy Jenkins" className="block p-4 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800" required/>
                     </label>
                     <label className="block">
                         <span className="mb-1">Email address</span>
-                        <input name='email' type="email" placeholder="leroy@jenkins.com" className="block p-4 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800" />
+                        <input name='email' type="email" placeholder="leroy@jenkins.com" className="block p-4 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800" required/>
                     </label>
                     <label className="block">
                         <span className="mb-1">Message</span>
-                        <textarea placeholder="Message Here" name='message' rows="4" className="block p-4 w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-primary-400 dark:bg-gray-800"></textarea>
+                        <textarea placeholder="Message Here" name='message' rows="4" className="block p-4 w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-primary-400 dark:bg-gray-800" required></textarea>
                     </label>
-                    <button type="submit" className="w-full btn btn-success btn-outline p-3 text-sm font-bold tracking-wide uppercase rounded">Submit</button>
+                    <input value='submit' type="submit" className="w-full btn btn-success btn-outline p-3 text-sm font-bold tracking-wide uppercase rounded"/>
                 </form>
             </div>
         </section>
